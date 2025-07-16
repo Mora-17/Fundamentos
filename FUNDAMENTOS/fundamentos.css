@@ -1,0 +1,4 @@
+thead{ border: solid black; }
+tbody{border: black;}
+tbody{ text-align: center;}
+thead{ table-layout: auto; }
