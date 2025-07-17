@@ -1,4 +1,30 @@
-thead{ border: solid black; }
-tbody{border: black;}
-tbody{ text-align: center;}
-thead{ table-layout: auto; }
+@import url('https://fonts.cdnfonts.com/css/overused-grotesk');
+body {font-family: 'Overused Grotesk', sans-serif;}
+:root { --color-fondo: #C0D9C0; 
+--color-texto: #353E35;
+ --color-enfasis: #A1BE9F;
+ --color-enfasis2: #667566 ;
+ --tamaño-titulos: 35px;
+--tamaño-texto: 25px}
+
+body{background-color: var(--color-fondo);
+color: var(--color-texto);
+overflow-x: hidden;
+}
+h2{font-size: var(--tamaño-titulos);}
+p{font-size: var(--tamaño-texto);}
+/* header*/
+header { width: 100vw;
+height: 10vh;}
+
+*{ margin: 0;}
+
+.lista{display: flex;}
+
+nav{display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;}
+
+.logo{ width: 6opx;
+height: 60px;}
